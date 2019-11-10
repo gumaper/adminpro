@@ -11,6 +11,7 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { PagesRoutingModule } from './pages-routing.module';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
     DashboardComponent,
     Graficas1Component,
     ProgressComponent,
-    GraficoDonaComponent
+    GraficoDonaComponent,
+    AccountSettingsComponent
   ],
   exports: [DashboardComponent, Graficas1Component, ProgressComponent],
   imports: [

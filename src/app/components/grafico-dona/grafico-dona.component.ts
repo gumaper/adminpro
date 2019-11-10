@@ -2,8 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-grafico-dona',
-  templateUrl: './grafico-dona.component.html',
-  styleUrls: ['./grafico-dona.component.scss']
+  templateUrl: './grafico-dona.component.html'
 })
 export class GraficoDonaComponent {
   @Input('chartLabels') doughnutChartLabels: string[] = [];
